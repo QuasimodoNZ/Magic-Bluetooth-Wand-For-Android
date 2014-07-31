@@ -1,0 +1,6 @@
+15:12:22 **** Clean-only build of configuration Default for project SWEN308_Assignment_1 ****
+make clean 
+rm -f -f ./build/*.o ./build/*.gch ./build/Ass1
+
+15:12:23 Build Finished (took 429ms)
+

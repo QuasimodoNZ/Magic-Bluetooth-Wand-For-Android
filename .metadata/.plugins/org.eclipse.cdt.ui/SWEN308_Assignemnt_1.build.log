@@ -1,0 +1,6 @@
+15:18:46 **** Incremental Build of configuration Default for project SWEN308_Assignemnt_1 ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+15:18:46 Build Finished (took 77ms)
+

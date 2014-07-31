@@ -1,0 +1,1398 @@
+10:03:57 **** Incremental Build of configuration Default for project COMP308_A1 ****
+make all 
+g++ -g -Wall -Wextra -pedantic  -c -o build/G308_Geometry.o src/G308_Geometry.cpp -I/usr/X11/include -I/usr/pkg/include -I./include
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:115:10: warning: 'GLUT_API_VERSION' macro redefined
+#define  GLUT_API_VERSION     4
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:102:9: note: previous definition is here
+#define GLUT_API_VERSION                5
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:116:10: warning: 'GLUT_XLIB_IMPLEMENTATION' macro redefined
+#define  GLUT_XLIB_IMPLEMENTATION 13
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:142:9: note: previous definition is here
+#define GLUT_XLIB_IMPLEMENTATION        15
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:135:10: warning: 'GLUT_KEY_F1' macro redefined
+#define  GLUT_KEY_F1                        0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:200:9: note: previous definition is here
+#define GLUT_KEY_F1                     1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:136:10: warning: 'GLUT_KEY_F2' macro redefined
+#define  GLUT_KEY_F2                        0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:201:9: note: previous definition is here
+#define GLUT_KEY_F2                     2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:137:10: warning: 'GLUT_KEY_F3' macro redefined
+#define  GLUT_KEY_F3                        0x0003
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:202:9: note: previous definition is here
+#define GLUT_KEY_F3                     3
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:138:10: warning: 'GLUT_KEY_F4' macro redefined
+#define  GLUT_KEY_F4                        0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:203:9: note: previous definition is here
+#define GLUT_KEY_F4                     4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:139:10: warning: 'GLUT_KEY_F5' macro redefined
+#define  GLUT_KEY_F5                        0x0005
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:204:9: note: previous definition is here
+#define GLUT_KEY_F5                     5
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:140:10: warning: 'GLUT_KEY_F6' macro redefined
+#define  GLUT_KEY_F6                        0x0006
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:205:9: note: previous definition is here
+#define GLUT_KEY_F6                     6
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:141:10: warning: 'GLUT_KEY_F7' macro redefined
+#define  GLUT_KEY_F7                        0x0007
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:206:9: note: previous definition is here
+#define GLUT_KEY_F7                     7
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:142:10: warning: 'GLUT_KEY_F8' macro redefined
+#define  GLUT_KEY_F8                        0x0008
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:207:9: note: previous definition is here
+#define GLUT_KEY_F8                     8
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:143:10: warning: 'GLUT_KEY_F9' macro redefined
+#define  GLUT_KEY_F9                        0x0009
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:208:9: note: previous definition is here
+#define GLUT_KEY_F9                     9
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:144:10: warning: 'GLUT_KEY_F10' macro redefined
+#define  GLUT_KEY_F10                       0x000A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:209:9: note: previous definition is here
+#define GLUT_KEY_F10                    10
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:145:10: warning: 'GLUT_KEY_F11' macro redefined
+#define  GLUT_KEY_F11                       0x000B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:210:9: note: previous definition is here
+#define GLUT_KEY_F11                    11
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:146:10: warning: 'GLUT_KEY_F12' macro redefined
+#define  GLUT_KEY_F12                       0x000C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:211:9: note: previous definition is here
+#define GLUT_KEY_F12                    12
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:147:10: warning: 'GLUT_KEY_LEFT' macro redefined
+#define  GLUT_KEY_LEFT                      0x0064
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:213:9: note: previous definition is here
+#define GLUT_KEY_LEFT                   100
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:148:10: warning: 'GLUT_KEY_UP' macro redefined
+#define  GLUT_KEY_UP                        0x0065
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:214:9: note: previous definition is here
+#define GLUT_KEY_UP                     101
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:149:10: warning: 'GLUT_KEY_RIGHT' macro redefined
+#define  GLUT_KEY_RIGHT                     0x0066
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:215:9: note: previous definition is here
+#define GLUT_KEY_RIGHT                  102
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:150:10: warning: 'GLUT_KEY_DOWN' macro redefined
+#define  GLUT_KEY_DOWN                      0x0067
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:216:9: note: previous definition is here
+#define GLUT_KEY_DOWN                   103
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:151:10: warning: 'GLUT_KEY_PAGE_UP' macro redefined
+#define  GLUT_KEY_PAGE_UP                   0x0068
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:217:9: note: previous definition is here
+#define GLUT_KEY_PAGE_UP                104
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:152:10: warning: 'GLUT_KEY_PAGE_DOWN' macro redefined
+#define  GLUT_KEY_PAGE_DOWN                 0x0069
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:218:9: note: previous definition is here
+#define GLUT_KEY_PAGE_DOWN              105
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:153:10: warning: 'GLUT_KEY_HOME' macro redefined
+#define  GLUT_KEY_HOME                      0x006A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:219:9: note: previous definition is here
+#define GLUT_KEY_HOME                   106
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:154:10: warning: 'GLUT_KEY_END' macro redefined
+#define  GLUT_KEY_END                       0x006B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:220:9: note: previous definition is here
+#define GLUT_KEY_END                    107
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:155:10: warning: 'GLUT_KEY_INSERT' macro redefined
+#define  GLUT_KEY_INSERT                    0x006C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:221:9: note: previous definition is here
+#define GLUT_KEY_INSERT                 108
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:160:10: warning: 'GLUT_LEFT_BUTTON' macro redefined
+#define  GLUT_LEFT_BUTTON                   0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:190:9: note: previous definition is here
+#define GLUT_LEFT_BUTTON                0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:161:10: warning: 'GLUT_MIDDLE_BUTTON' macro redefined
+#define  GLUT_MIDDLE_BUTTON                 0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:191:9: note: previous definition is here
+#define GLUT_MIDDLE_BUTTON              1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:162:10: warning: 'GLUT_RIGHT_BUTTON' macro redefined
+#define  GLUT_RIGHT_BUTTON                  0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:192:9: note: previous definition is here
+#define GLUT_RIGHT_BUTTON               2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:163:10: warning: 'GLUT_DOWN' macro redefined
+#define  GLUT_DOWN                          0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:195:9: note: previous definition is here
+#define GLUT_DOWN                       0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:164:10: warning: 'GLUT_UP' macro redefined
+#define  GLUT_UP                            0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:196:9: note: previous definition is here
+#define GLUT_UP                         1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:165:10: warning: 'GLUT_LEFT' macro redefined
+#define  GLUT_LEFT                          0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:225:9: note: previous definition is here
+#define GLUT_LEFT                       0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:166:10: warning: 'GLUT_ENTERED' macro redefined
+#define  GLUT_ENTERED                       0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:226:9: note: previous definition is here
+#define GLUT_ENTERED                    1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:171:10: warning: 'GLUT_RGB' macro redefined
+#define  GLUT_RGB                           0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:166:9: note: previous definition is here
+#define GLUT_RGB                        0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:172:10: warning: 'GLUT_RGBA' macro redefined
+#define  GLUT_RGBA                          0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:167:9: note: previous definition is here
+#define GLUT_RGBA                       GLUT_RGB
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:173:10: warning: 'GLUT_INDEX' macro redefined
+#define  GLUT_INDEX                         0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:168:9: note: previous definition is here
+#define GLUT_INDEX                      1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:174:10: warning: 'GLUT_SINGLE' macro redefined
+#define  GLUT_SINGLE                        0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:169:9: note: previous definition is here
+#define GLUT_SINGLE                     0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:175:10: warning: 'GLUT_DOUBLE' macro redefined
+#define  GLUT_DOUBLE                        0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:170:9: note: previous definition is here
+#define GLUT_DOUBLE                     2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:176:10: warning: 'GLUT_ACCUM' macro redefined
+#define  GLUT_ACCUM                         0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:171:9: note: previous definition is here
+#define GLUT_ACCUM                      4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:177:10: warning: 'GLUT_ALPHA' macro redefined
+#define  GLUT_ALPHA                         0x0008
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:172:9: note: previous definition is here
+#define GLUT_ALPHA                      8
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:178:10: warning: 'GLUT_DEPTH' macro redefined
+#define  GLUT_DEPTH                         0x0010
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:173:9: note: previous definition is here
+#define GLUT_DEPTH                      16
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:179:10: warning: 'GLUT_STENCIL' macro redefined
+#define  GLUT_STENCIL                       0x0020
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:174:9: note: previous definition is here
+#define GLUT_STENCIL            32
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:180:10: warning: 'GLUT_MULTISAMPLE' macro redefined
+#define  GLUT_MULTISAMPLE                   0x0080
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:176:9: note: previous definition is here
+#define GLUT_MULTISAMPLE        128
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:181:10: warning: 'GLUT_STEREO' macro redefined
+#define  GLUT_STEREO                        0x0100
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:177:9: note: previous definition is here
+#define GLUT_STEREO                     256
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:182:10: warning: 'GLUT_LUMINANCE' macro redefined
+#define  GLUT_LUMINANCE                     0x0200
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:180:9: note: previous definition is here
+#define GLUT_LUMINANCE          512
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:187:10: warning: 'GLUT_MENU_NOT_IN_USE' macro redefined
+#define  GLUT_MENU_NOT_IN_USE               0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:229:9: note: previous definition is here
+#define GLUT_MENU_NOT_IN_USE            0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:188:10: warning: 'GLUT_MENU_IN_USE' macro redefined
+#define  GLUT_MENU_IN_USE                   0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:230:9: note: previous definition is here
+#define GLUT_MENU_IN_USE                1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:189:10: warning: 'GLUT_NOT_VISIBLE' macro redefined
+#define  GLUT_NOT_VISIBLE                   0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:233:9: note: previous definition is here
+#define GLUT_NOT_VISIBLE                0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:190:10: warning: 'GLUT_VISIBLE' macro redefined
+#define  GLUT_VISIBLE                       0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:234:9: note: previous definition is here
+#define GLUT_VISIBLE                    1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:191:10: warning: 'GLUT_HIDDEN' macro redefined
+#define  GLUT_HIDDEN                        0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:237:9: note: previous definition is here
+#define GLUT_HIDDEN                     0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:192:10: warning: 'GLUT_FULLY_RETAINED' macro redefined
+#define  GLUT_FULLY_RETAINED                0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:238:9: note: previous definition is here
+#define GLUT_FULLY_RETAINED             1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:193:10: warning: 'GLUT_PARTIALLY_RETAINED' macro redefined
+#define  GLUT_PARTIALLY_RETAINED            0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:239:9: note: previous definition is here
+#define GLUT_PARTIALLY_RETAINED         2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:194:10: warning: 'GLUT_FULLY_COVERED' macro redefined
+#define  GLUT_FULLY_COVERED                 0x0003
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:240:9: note: previous definition is here
+#define GLUT_FULLY_COVERED              3
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:228:13: warning: 'GLUT_STROKE_ROMAN' macro redefined
+#   define  GLUT_STROKE_ROMAN               ((void *) &glutStrokeRoman)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:272:9: note: previous definition is here
+#define GLUT_STROKE_ROMAN               (&glutStrokeRoman)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:229:13: warning: 'GLUT_STROKE_MONO_ROMAN' macro redefined
+#   define  GLUT_STROKE_MONO_ROMAN          ((void *) &glutStrokeMonoRoman)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:273:9: note: previous definition is here
+#define GLUT_STROKE_MONO_ROMAN          (&glutStrokeMonoRoman)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:230:13: warning: 'GLUT_BITMAP_9_BY_15' macro redefined
+#   define  GLUT_BITMAP_9_BY_15             ((void *) &glutBitmap9By15)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:285:9: note: previous definition is here
+#define GLUT_BITMAP_9_BY_15             (&glutBitmap9By15)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:231:13: warning: 'GLUT_BITMAP_8_BY_13' macro redefined
+#   define  GLUT_BITMAP_8_BY_13             ((void *) &glutBitmap8By13)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:286:9: note: previous definition is here
+#define GLUT_BITMAP_8_BY_13             (&glutBitmap8By13)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:232:13: warning: 'GLUT_BITMAP_TIMES_ROMAN_10' macro redefined
+#   define  GLUT_BITMAP_TIMES_ROMAN_10      ((void *) &glutBitmapTimesRoman10)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:287:9: note: previous definition is here
+#define GLUT_BITMAP_TIMES_ROMAN_10      (&glutBitmapTimesRoman10)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:233:13: warning: 'GLUT_BITMAP_TIMES_ROMAN_24' macro redefined
+#   define  GLUT_BITMAP_TIMES_ROMAN_24      ((void *) &glutBitmapTimesRoman24)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:288:9: note: previous definition is here
+#define GLUT_BITMAP_TIMES_ROMAN_24      (&glutBitmapTimesRoman24)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:234:13: warning: 'GLUT_BITMAP_HELVETICA_10' macro redefined
+#   define  GLUT_BITMAP_HELVETICA_10        ((void *) &glutBitmapHelvetica10)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:290:9: note: previous definition is here
+#define GLUT_BITMAP_HELVETICA_10        (&glutBitmapHelvetica10)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:235:13: warning: 'GLUT_BITMAP_HELVETICA_12' macro redefined
+#   define  GLUT_BITMAP_HELVETICA_12        ((void *) &glutBitmapHelvetica12)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:291:9: note: previous definition is here
+#define GLUT_BITMAP_HELVETICA_12        (&glutBitmapHelvetica12)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:236:13: warning: 'GLUT_BITMAP_HELVETICA_18' macro redefined
+#   define  GLUT_BITMAP_HELVETICA_18        ((void *) &glutBitmapHelvetica18)
+            ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:292:9: note: previous definition is here
+#define GLUT_BITMAP_HELVETICA_18        (&glutBitmapHelvetica18)
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:242:10: warning: 'GLUT_WINDOW_X' macro redefined
+#define  GLUT_WINDOW_X                      0x0064
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:297:9: note: previous definition is here
+#define GLUT_WINDOW_X                   100
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:243:10: warning: 'GLUT_WINDOW_Y' macro redefined
+#define  GLUT_WINDOW_Y                      0x0065
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:298:9: note: previous definition is here
+#define GLUT_WINDOW_Y                   101
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:244:10: warning: 'GLUT_WINDOW_WIDTH' macro redefined
+#define  GLUT_WINDOW_WIDTH                  0x0066
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:299:9: note: previous definition is here
+#define GLUT_WINDOW_WIDTH               102
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:245:10: warning: 'GLUT_WINDOW_HEIGHT' macro redefined
+#define  GLUT_WINDOW_HEIGHT                 0x0067
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:300:9: note: previous definition is here
+#define GLUT_WINDOW_HEIGHT              103
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:246:10: warning: 'GLUT_WINDOW_BUFFER_SIZE' macro redefined
+#define  GLUT_WINDOW_BUFFER_SIZE            0x0068
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:301:9: note: previous definition is here
+#define GLUT_WINDOW_BUFFER_SIZE         104
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:247:10: warning: 'GLUT_WINDOW_STENCIL_SIZE' macro redefined
+#define  GLUT_WINDOW_STENCIL_SIZE           0x0069
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:302:9: note: previous definition is here
+#define GLUT_WINDOW_STENCIL_SIZE        105
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:248:10: warning: 'GLUT_WINDOW_DEPTH_SIZE' macro redefined
+#define  GLUT_WINDOW_DEPTH_SIZE             0x006A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:303:9: note: previous definition is here
+#define GLUT_WINDOW_DEPTH_SIZE          106
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:249:10: warning: 'GLUT_WINDOW_RED_SIZE' macro redefined
+#define  GLUT_WINDOW_RED_SIZE               0x006B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:304:9: note: previous definition is here
+#define GLUT_WINDOW_RED_SIZE            107
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:250:10: warning: 'GLUT_WINDOW_GREEN_SIZE' macro redefined
+#define  GLUT_WINDOW_GREEN_SIZE             0x006C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:305:9: note: previous definition is here
+#define GLUT_WINDOW_GREEN_SIZE          108
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:251:10: warning: 'GLUT_WINDOW_BLUE_SIZE' macro redefined
+#define  GLUT_WINDOW_BLUE_SIZE              0x006D
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:306:9: note: previous definition is here
+#define GLUT_WINDOW_BLUE_SIZE           109
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:252:10: warning: 'GLUT_WINDOW_ALPHA_SIZE' macro redefined
+#define  GLUT_WINDOW_ALPHA_SIZE             0x006E
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:307:9: note: previous definition is here
+#define GLUT_WINDOW_ALPHA_SIZE          110
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:253:10: warning: 'GLUT_WINDOW_ACCUM_RED_SIZE' macro redefined
+#define  GLUT_WINDOW_ACCUM_RED_SIZE         0x006F
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:308:9: note: previous definition is here
+#define GLUT_WINDOW_ACCUM_RED_SIZE      111
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:254:10: warning: 'GLUT_WINDOW_ACCUM_GREEN_SIZE' macro redefined
+#define  GLUT_WINDOW_ACCUM_GREEN_SIZE       0x0070
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:309:9: note: previous definition is here
+#define GLUT_WINDOW_ACCUM_GREEN_SIZE    112
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:255:10: warning: 'GLUT_WINDOW_ACCUM_BLUE_SIZE' macro redefined
+#define  GLUT_WINDOW_ACCUM_BLUE_SIZE        0x0071
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:310:9: note: previous definition is here
+#define GLUT_WINDOW_ACCUM_BLUE_SIZE     113
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:256:10: warning: 'GLUT_WINDOW_ACCUM_ALPHA_SIZE' macro redefined
+#define  GLUT_WINDOW_ACCUM_ALPHA_SIZE       0x0072
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:311:9: note: previous definition is here
+#define GLUT_WINDOW_ACCUM_ALPHA_SIZE    114
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:257:10: warning: 'GLUT_WINDOW_DOUBLEBUFFER' macro redefined
+#define  GLUT_WINDOW_DOUBLEBUFFER           0x0073
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:312:9: note: previous definition is here
+#define GLUT_WINDOW_DOUBLEBUFFER        115
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:258:10: warning: 'GLUT_WINDOW_RGBA' macro redefined
+#define  GLUT_WINDOW_RGBA                   0x0074
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:313:9: note: previous definition is here
+#define GLUT_WINDOW_RGBA                116
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:259:10: warning: 'GLUT_WINDOW_PARENT' macro redefined
+#define  GLUT_WINDOW_PARENT                 0x0075
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:314:9: note: previous definition is here
+#define GLUT_WINDOW_PARENT              117
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:260:10: warning: 'GLUT_WINDOW_NUM_CHILDREN' macro redefined
+#define  GLUT_WINDOW_NUM_CHILDREN           0x0076
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:315:9: note: previous definition is here
+#define GLUT_WINDOW_NUM_CHILDREN        118
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:261:10: warning: 'GLUT_WINDOW_COLORMAP_SIZE' macro redefined
+#define  GLUT_WINDOW_COLORMAP_SIZE          0x0077
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:316:9: note: previous definition is here
+#define GLUT_WINDOW_COLORMAP_SIZE       119
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:262:10: warning: 'GLUT_WINDOW_NUM_SAMPLES' macro redefined
+#define  GLUT_WINDOW_NUM_SAMPLES            0x0078
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:318:9: note: previous definition is here
+#define GLUT_WINDOW_NUM_SAMPLES         120
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:263:10: warning: 'GLUT_WINDOW_STEREO' macro redefined
+#define  GLUT_WINDOW_STEREO                 0x0079
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:319:9: note: previous definition is here
+#define GLUT_WINDOW_STEREO              121
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:264:10: warning: 'GLUT_WINDOW_CURSOR' macro redefined
+#define  GLUT_WINDOW_CURSOR                 0x007A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:322:9: note: previous definition is here
+#define GLUT_WINDOW_CURSOR              122
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:266:10: warning: 'GLUT_SCREEN_WIDTH' macro redefined
+#define  GLUT_SCREEN_WIDTH                  0x00C8
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:324:9: note: previous definition is here
+#define GLUT_SCREEN_WIDTH               200
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:267:10: warning: 'GLUT_SCREEN_HEIGHT' macro redefined
+#define  GLUT_SCREEN_HEIGHT                 0x00C9
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:325:9: note: previous definition is here
+#define GLUT_SCREEN_HEIGHT              201
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:268:10: warning: 'GLUT_SCREEN_WIDTH_MM' macro redefined
+#define  GLUT_SCREEN_WIDTH_MM               0x00CA
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:326:9: note: previous definition is here
+#define GLUT_SCREEN_WIDTH_MM            202
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:269:10: warning: 'GLUT_SCREEN_HEIGHT_MM' macro redefined
+#define  GLUT_SCREEN_HEIGHT_MM              0x00CB
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:327:9: note: previous definition is here
+#define GLUT_SCREEN_HEIGHT_MM           203
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:270:10: warning: 'GLUT_MENU_NUM_ITEMS' macro redefined
+#define  GLUT_MENU_NUM_ITEMS                0x012C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:328:9: note: previous definition is here
+#define GLUT_MENU_NUM_ITEMS             300
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:271:10: warning: 'GLUT_DISPLAY_MODE_POSSIBLE' macro redefined
+#define  GLUT_DISPLAY_MODE_POSSIBLE         0x0190
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:329:9: note: previous definition is here
+#define GLUT_DISPLAY_MODE_POSSIBLE      400
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:272:10: warning: 'GLUT_INIT_WINDOW_X' macro redefined
+#define  GLUT_INIT_WINDOW_X                 0x01F4
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:330:9: note: previous definition is here
+#define GLUT_INIT_WINDOW_X              500
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:273:10: warning: 'GLUT_INIT_WINDOW_Y' macro redefined
+#define  GLUT_INIT_WINDOW_Y                 0x01F5
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:331:9: note: previous definition is here
+#define GLUT_INIT_WINDOW_Y              501
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:274:10: warning: 'GLUT_INIT_WINDOW_WIDTH' macro redefined
+#define  GLUT_INIT_WINDOW_WIDTH             0x01F6
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:332:9: note: previous definition is here
+#define GLUT_INIT_WINDOW_WIDTH          502
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:275:10: warning: 'GLUT_INIT_WINDOW_HEIGHT' macro redefined
+#define  GLUT_INIT_WINDOW_HEIGHT            0x01F7
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:333:9: note: previous definition is here
+#define GLUT_INIT_WINDOW_HEIGHT         503
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:276:10: warning: 'GLUT_INIT_DISPLAY_MODE' macro redefined
+#define  GLUT_INIT_DISPLAY_MODE             0x01F8
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:334:9: note: previous definition is here
+#define GLUT_INIT_DISPLAY_MODE          504
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:277:10: warning: 'GLUT_ELAPSED_TIME' macro redefined
+#define  GLUT_ELAPSED_TIME                  0x02BC
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:336:9: note: previous definition is here
+#define GLUT_ELAPSED_TIME               700
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:278:10: warning: 'GLUT_WINDOW_FORMAT_ID' macro redefined
+#define  GLUT_WINDOW_FORMAT_ID              0x007B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:339:9: note: previous definition is here
+#define GLUT_WINDOW_FORMAT_ID           123
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:283:10: warning: 'GLUT_HAS_KEYBOARD' macro redefined
+#define  GLUT_HAS_KEYBOARD                  0x0258
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:344:9: note: previous definition is here
+#define GLUT_HAS_KEYBOARD               600
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:284:10: warning: 'GLUT_HAS_MOUSE' macro redefined
+#define  GLUT_HAS_MOUSE                     0x0259
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:345:9: note: previous definition is here
+#define GLUT_HAS_MOUSE                  601
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:285:10: warning: 'GLUT_HAS_SPACEBALL' macro redefined
+#define  GLUT_HAS_SPACEBALL                 0x025A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:346:9: note: previous definition is here
+#define GLUT_HAS_SPACEBALL              602
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:286:10: warning: 'GLUT_HAS_DIAL_AND_BUTTON_BOX' macro redefined
+#define  GLUT_HAS_DIAL_AND_BUTTON_BOX       0x025B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:347:9: note: previous definition is here
+#define GLUT_HAS_DIAL_AND_BUTTON_BOX    603
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:287:10: warning: 'GLUT_HAS_TABLET' macro redefined
+#define  GLUT_HAS_TABLET                    0x025C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:348:9: note: previous definition is here
+#define GLUT_HAS_TABLET                 604
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:288:10: warning: 'GLUT_NUM_MOUSE_BUTTONS' macro redefined
+#define  GLUT_NUM_MOUSE_BUTTONS             0x025D
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:349:9: note: previous definition is here
+#define GLUT_NUM_MOUSE_BUTTONS          605
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:289:10: warning: 'GLUT_NUM_SPACEBALL_BUTTONS' macro redefined
+#define  GLUT_NUM_SPACEBALL_BUTTONS         0x025E
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:350:9: note: previous definition is here
+#define GLUT_NUM_SPACEBALL_BUTTONS      606
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:290:10: warning: 'GLUT_NUM_BUTTON_BOX_BUTTONS' macro redefined
+#define  GLUT_NUM_BUTTON_BOX_BUTTONS        0x025F
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:351:9: note: previous definition is here
+#define GLUT_NUM_BUTTON_BOX_BUTTONS     607
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:291:10: warning: 'GLUT_NUM_DIALS' macro redefined
+#define  GLUT_NUM_DIALS                     0x0260
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:352:9: note: previous definition is here
+#define GLUT_NUM_DIALS                  608
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:292:10: warning: 'GLUT_NUM_TABLET_BUTTONS' macro redefined
+#define  GLUT_NUM_TABLET_BUTTONS            0x0261
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:353:9: note: previous definition is here
+#define GLUT_NUM_TABLET_BUTTONS         609
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:293:10: warning: 'GLUT_DEVICE_IGNORE_KEY_REPEAT' macro redefined
+#define  GLUT_DEVICE_IGNORE_KEY_REPEAT      0x0262
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:356:9: note: previous definition is here
+#define GLUT_DEVICE_IGNORE_KEY_REPEAT   610
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:294:10: warning: 'GLUT_DEVICE_KEY_REPEAT' macro redefined
+#define  GLUT_DEVICE_KEY_REPEAT             0x0263
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:357:9: note: previous definition is here
+#define GLUT_DEVICE_KEY_REPEAT          611
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:295:10: warning: 'GLUT_HAS_JOYSTICK' macro redefined
+#define  GLUT_HAS_JOYSTICK                  0x0264
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:358:9: note: previous definition is here
+#define GLUT_HAS_JOYSTICK               612
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:296:10: warning: 'GLUT_OWNS_JOYSTICK' macro redefined
+#define  GLUT_OWNS_JOYSTICK                 0x0265
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:359:9: note: previous definition is here
+#define GLUT_OWNS_JOYSTICK              613
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:297:10: warning: 'GLUT_JOYSTICK_BUTTONS' macro redefined
+#define  GLUT_JOYSTICK_BUTTONS              0x0266
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:360:9: note: previous definition is here
+#define GLUT_JOYSTICK_BUTTONS           614
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:298:10: warning: 'GLUT_JOYSTICK_AXES' macro redefined
+#define  GLUT_JOYSTICK_AXES                 0x0267
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:361:9: note: previous definition is here
+#define GLUT_JOYSTICK_AXES              615
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:299:10: warning: 'GLUT_JOYSTICK_POLL_RATE' macro redefined
+#define  GLUT_JOYSTICK_POLL_RATE            0x0268
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:362:9: note: previous definition is here
+#define GLUT_JOYSTICK_POLL_RATE         616
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:304:10: warning: 'GLUT_OVERLAY_POSSIBLE' macro redefined
+#define  GLUT_OVERLAY_POSSIBLE              0x0320
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:367:9: note: previous definition is here
+#define GLUT_OVERLAY_POSSIBLE           800
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:305:10: warning: 'GLUT_LAYER_IN_USE' macro redefined
+#define  GLUT_LAYER_IN_USE                  0x0321
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:368:9: note: previous definition is here
+#define GLUT_LAYER_IN_USE               801
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:306:10: warning: 'GLUT_HAS_OVERLAY' macro redefined
+#define  GLUT_HAS_OVERLAY                   0x0322
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:369:9: note: previous definition is here
+#define GLUT_HAS_OVERLAY                802
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:307:10: warning: 'GLUT_TRANSPARENT_INDEX' macro redefined
+#define  GLUT_TRANSPARENT_INDEX             0x0323
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:370:9: note: previous definition is here
+#define GLUT_TRANSPARENT_INDEX          803
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:308:10: warning: 'GLUT_NORMAL_DAMAGED' macro redefined
+#define  GLUT_NORMAL_DAMAGED                0x0324
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:371:9: note: previous definition is here
+#define GLUT_NORMAL_DAMAGED             804
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:309:10: warning: 'GLUT_OVERLAY_DAMAGED' macro redefined
+#define  GLUT_OVERLAY_DAMAGED               0x0325
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:372:9: note: previous definition is here
+#define GLUT_OVERLAY_DAMAGED            805
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:314:10: warning: 'GLUT_VIDEO_RESIZE_POSSIBLE' macro redefined
+#define  GLUT_VIDEO_RESIZE_POSSIBLE         0x0384
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:376:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_POSSIBLE      900
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:315:10: warning: 'GLUT_VIDEO_RESIZE_IN_USE' macro redefined
+#define  GLUT_VIDEO_RESIZE_IN_USE           0x0385
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:377:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_IN_USE        901
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:316:10: warning: 'GLUT_VIDEO_RESIZE_X_DELTA' macro redefined
+#define  GLUT_VIDEO_RESIZE_X_DELTA          0x0386
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:378:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_X_DELTA       902
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:317:10: warning: 'GLUT_VIDEO_RESIZE_Y_DELTA' macro redefined
+#define  GLUT_VIDEO_RESIZE_Y_DELTA          0x0387
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:379:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_Y_DELTA       903
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:318:10: warning: 'GLUT_VIDEO_RESIZE_WIDTH_DELTA' macro redefined
+#define  GLUT_VIDEO_RESIZE_WIDTH_DELTA      0x0388
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:380:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_WIDTH_DELTA   904
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:319:10: warning: 'GLUT_VIDEO_RESIZE_HEIGHT_DELTA' macro redefined
+#define  GLUT_VIDEO_RESIZE_HEIGHT_DELTA     0x0389
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:381:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_HEIGHT_DELTA  905
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:320:10: warning: 'GLUT_VIDEO_RESIZE_X' macro redefined
+#define  GLUT_VIDEO_RESIZE_X                0x038A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:382:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_X             906
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:321:10: warning: 'GLUT_VIDEO_RESIZE_Y' macro redefined
+#define  GLUT_VIDEO_RESIZE_Y                0x038B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:383:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_Y             907
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:322:10: warning: 'GLUT_VIDEO_RESIZE_WIDTH' macro redefined
+#define  GLUT_VIDEO_RESIZE_WIDTH            0x038C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:384:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_WIDTH         908
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:323:10: warning: 'GLUT_VIDEO_RESIZE_HEIGHT' macro redefined
+#define  GLUT_VIDEO_RESIZE_HEIGHT           0x038D
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:385:9: note: previous definition is here
+#define GLUT_VIDEO_RESIZE_HEIGHT        909
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:328:10: warning: 'GLUT_NORMAL' macro redefined
+#define  GLUT_NORMAL                        0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:389:9: note: previous definition is here
+#define GLUT_NORMAL                     0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:329:10: warning: 'GLUT_OVERLAY' macro redefined
+#define  GLUT_OVERLAY                       0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:390:9: note: previous definition is here
+#define GLUT_OVERLAY                    1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:334:10: warning: 'GLUT_ACTIVE_SHIFT' macro redefined
+#define  GLUT_ACTIVE_SHIFT                  0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:393:9: note: previous definition is here
+#define GLUT_ACTIVE_SHIFT               1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:335:10: warning: 'GLUT_ACTIVE_CTRL' macro redefined
+#define  GLUT_ACTIVE_CTRL                   0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:394:9: note: previous definition is here
+#define GLUT_ACTIVE_CTRL                2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:336:10: warning: 'GLUT_ACTIVE_ALT' macro redefined
+#define  GLUT_ACTIVE_ALT                    0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:395:9: note: previous definition is here
+#define GLUT_ACTIVE_ALT                 4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:341:10: warning: 'GLUT_CURSOR_RIGHT_ARROW' macro redefined
+#define  GLUT_CURSOR_RIGHT_ARROW            0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:399:9: note: previous definition is here
+#define GLUT_CURSOR_RIGHT_ARROW         0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:342:10: warning: 'GLUT_CURSOR_LEFT_ARROW' macro redefined
+#define  GLUT_CURSOR_LEFT_ARROW             0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:400:9: note: previous definition is here
+#define GLUT_CURSOR_LEFT_ARROW          1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:343:10: warning: 'GLUT_CURSOR_INFO' macro redefined
+#define  GLUT_CURSOR_INFO                   0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:402:9: note: previous definition is here
+#define GLUT_CURSOR_INFO                2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:344:10: warning: 'GLUT_CURSOR_DESTROY' macro redefined
+#define  GLUT_CURSOR_DESTROY                0x0003
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:403:9: note: previous definition is here
+#define GLUT_CURSOR_DESTROY             3
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:345:10: warning: 'GLUT_CURSOR_HELP' macro redefined
+#define  GLUT_CURSOR_HELP                   0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:404:9: note: previous definition is here
+#define GLUT_CURSOR_HELP                4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:346:10: warning: 'GLUT_CURSOR_CYCLE' macro redefined
+#define  GLUT_CURSOR_CYCLE                  0x0005
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:405:9: note: previous definition is here
+#define GLUT_CURSOR_CYCLE               5
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:347:10: warning: 'GLUT_CURSOR_SPRAY' macro redefined
+#define  GLUT_CURSOR_SPRAY                  0x0006
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:406:9: note: previous definition is here
+#define GLUT_CURSOR_SPRAY               6
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:348:10: warning: 'GLUT_CURSOR_WAIT' macro redefined
+#define  GLUT_CURSOR_WAIT                   0x0007
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:407:9: note: previous definition is here
+#define GLUT_CURSOR_WAIT                7
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:349:10: warning: 'GLUT_CURSOR_TEXT' macro redefined
+#define  GLUT_CURSOR_TEXT                   0x0008
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:408:9: note: previous definition is here
+#define GLUT_CURSOR_TEXT                8
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:350:10: warning: 'GLUT_CURSOR_CROSSHAIR' macro redefined
+#define  GLUT_CURSOR_CROSSHAIR              0x0009
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:409:9: note: previous definition is here
+#define GLUT_CURSOR_CROSSHAIR           9
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:351:10: warning: 'GLUT_CURSOR_UP_DOWN' macro redefined
+#define  GLUT_CURSOR_UP_DOWN                0x000A
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:411:9: note: previous definition is here
+#define GLUT_CURSOR_UP_DOWN             10
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:352:10: warning: 'GLUT_CURSOR_LEFT_RIGHT' macro redefined
+#define  GLUT_CURSOR_LEFT_RIGHT             0x000B
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:412:9: note: previous definition is here
+#define GLUT_CURSOR_LEFT_RIGHT          11
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:353:10: warning: 'GLUT_CURSOR_TOP_SIDE' macro redefined
+#define  GLUT_CURSOR_TOP_SIDE               0x000C
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:414:9: note: previous definition is here
+#define GLUT_CURSOR_TOP_SIDE            12
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:354:10: warning: 'GLUT_CURSOR_BOTTOM_SIDE' macro redefined
+#define  GLUT_CURSOR_BOTTOM_SIDE            0x000D
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:415:9: note: previous definition is here
+#define GLUT_CURSOR_BOTTOM_SIDE         13
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:355:10: warning: 'GLUT_CURSOR_LEFT_SIDE' macro redefined
+#define  GLUT_CURSOR_LEFT_SIDE              0x000E
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:416:9: note: previous definition is here
+#define GLUT_CURSOR_LEFT_SIDE           14
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:356:10: warning: 'GLUT_CURSOR_RIGHT_SIDE' macro redefined
+#define  GLUT_CURSOR_RIGHT_SIDE             0x000F
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:417:9: note: previous definition is here
+#define GLUT_CURSOR_RIGHT_SIDE          15
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:357:10: warning: 'GLUT_CURSOR_TOP_LEFT_CORNER' macro redefined
+#define  GLUT_CURSOR_TOP_LEFT_CORNER        0x0010
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:418:9: note: previous definition is here
+#define GLUT_CURSOR_TOP_LEFT_CORNER     16
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:358:10: warning: 'GLUT_CURSOR_TOP_RIGHT_CORNER' macro redefined
+#define  GLUT_CURSOR_TOP_RIGHT_CORNER       0x0011
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:419:9: note: previous definition is here
+#define GLUT_CURSOR_TOP_RIGHT_CORNER    17
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:359:10: warning: 'GLUT_CURSOR_BOTTOM_RIGHT_CORNER' macro redefined
+#define  GLUT_CURSOR_BOTTOM_RIGHT_CORNER    0x0012
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:420:9: note: previous definition is here
+#define GLUT_CURSOR_BOTTOM_RIGHT_CORNER 18
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:360:10: warning: 'GLUT_CURSOR_BOTTOM_LEFT_CORNER' macro redefined
+#define  GLUT_CURSOR_BOTTOM_LEFT_CORNER     0x0013
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:421:9: note: previous definition is here
+#define GLUT_CURSOR_BOTTOM_LEFT_CORNER  19
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:361:10: warning: 'GLUT_CURSOR_INHERIT' macro redefined
+#define  GLUT_CURSOR_INHERIT                0x0064
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:423:9: note: previous definition is here
+#define GLUT_CURSOR_INHERIT             100
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:362:10: warning: 'GLUT_CURSOR_NONE' macro redefined
+#define  GLUT_CURSOR_NONE                   0x0065
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:425:9: note: previous definition is here
+#define GLUT_CURSOR_NONE                101
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:363:10: warning: 'GLUT_CURSOR_FULL_CROSSHAIR' macro redefined
+#define  GLUT_CURSOR_FULL_CROSSHAIR         0x0066
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:427:9: note: previous definition is here
+#define GLUT_CURSOR_FULL_CROSSHAIR      102
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:368:10: warning: 'GLUT_RED' macro redefined
+#define  GLUT_RED                           0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:243:9: note: previous definition is here
+#define GLUT_RED                        0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:369:10: warning: 'GLUT_GREEN' macro redefined
+#define  GLUT_GREEN                         0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:244:9: note: previous definition is here
+#define GLUT_GREEN                      1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:370:10: warning: 'GLUT_BLUE' macro redefined
+#define  GLUT_BLUE                          0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:245:9: note: previous definition is here
+#define GLUT_BLUE                       2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:375:10: warning: 'GLUT_KEY_REPEAT_OFF' macro redefined
+#define  GLUT_KEY_REPEAT_OFF                0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:604:9: note: previous definition is here
+#define GLUT_KEY_REPEAT_OFF             0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:376:10: warning: 'GLUT_KEY_REPEAT_ON' macro redefined
+#define  GLUT_KEY_REPEAT_ON                 0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:605:9: note: previous definition is here
+#define GLUT_KEY_REPEAT_ON              1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:377:10: warning: 'GLUT_KEY_REPEAT_DEFAULT' macro redefined
+#define  GLUT_KEY_REPEAT_DEFAULT            0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:606:9: note: previous definition is here
+#define GLUT_KEY_REPEAT_DEFAULT         2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:379:10: warning: 'GLUT_JOYSTICK_BUTTON_A' macro redefined
+#define  GLUT_JOYSTICK_BUTTON_A             0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:609:9: note: previous definition is here
+#define GLUT_JOYSTICK_BUTTON_A          1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:380:10: warning: 'GLUT_JOYSTICK_BUTTON_B' macro redefined
+#define  GLUT_JOYSTICK_BUTTON_B             0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:610:9: note: previous definition is here
+#define GLUT_JOYSTICK_BUTTON_B          2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:381:10: warning: 'GLUT_JOYSTICK_BUTTON_C' macro redefined
+#define  GLUT_JOYSTICK_BUTTON_C             0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:611:9: note: previous definition is here
+#define GLUT_JOYSTICK_BUTTON_C          4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:382:10: warning: 'GLUT_JOYSTICK_BUTTON_D' macro redefined
+#define  GLUT_JOYSTICK_BUTTON_D             0x0008
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:612:9: note: previous definition is here
+#define GLUT_JOYSTICK_BUTTON_D          8
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:387:10: warning: 'GLUT_GAME_MODE_ACTIVE' macro redefined
+#define  GLUT_GAME_MODE_ACTIVE              0x0000
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:620:9: note: previous definition is here
+#define GLUT_GAME_MODE_ACTIVE           0
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:388:10: warning: 'GLUT_GAME_MODE_POSSIBLE' macro redefined
+#define  GLUT_GAME_MODE_POSSIBLE            0x0001
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:621:9: note: previous definition is here
+#define GLUT_GAME_MODE_POSSIBLE         1
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:389:10: warning: 'GLUT_GAME_MODE_WIDTH' macro redefined
+#define  GLUT_GAME_MODE_WIDTH               0x0002
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:622:9: note: previous definition is here
+#define GLUT_GAME_MODE_WIDTH            2
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:390:10: warning: 'GLUT_GAME_MODE_HEIGHT' macro redefined
+#define  GLUT_GAME_MODE_HEIGHT              0x0003
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:623:9: note: previous definition is here
+#define GLUT_GAME_MODE_HEIGHT           3
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:391:10: warning: 'GLUT_GAME_MODE_PIXEL_DEPTH' macro redefined
+#define  GLUT_GAME_MODE_PIXEL_DEPTH         0x0004
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:624:9: note: previous definition is here
+#define GLUT_GAME_MODE_PIXEL_DEPTH      4
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:392:10: warning: 'GLUT_GAME_MODE_REFRESH_RATE' macro redefined
+#define  GLUT_GAME_MODE_REFRESH_RATE        0x0005
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:625:9: note: previous definition is here
+#define GLUT_GAME_MODE_REFRESH_RATE     5
+        ^
+In file included from src/G308_Geometry.cpp:19:
+In file included from /usr/X11/include/GL/glut.h:17:
+/usr/X11/include/GL/freeglut_std.h:393:10: warning: 'GLUT_GAME_MODE_DISPLAY_CHANGED' macro redefined
+#define  GLUT_GAME_MODE_DISPLAY_CHANGED     0x0006
+         ^
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h:626:9: note: previous definition is here
+#define GLUT_GAME_MODE_DISPLAY_CHANGED  6
+        ^
+src/G308_Geometry.cpp:274:3: warning: 'glutWireTeapot' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]
+                glutWireTeapot(5.0);
+                ^
+/usr/X11/include/GL/freeglut_std.h:545:26: note: 'glutWireTeapot' declared here
+FGAPI void    FGAPIENTRY glutWireTeapot( GLdouble size );
+                         ^
+174 warnings generated.
+g++ -o build/Ass1 build/main.o build/G308_Geometry.o -lm -framework OpenGL -framework GLUT 
+
+10:04:02 Build Finished (took 4s.665ms)
+
